@@ -19,7 +19,10 @@ The programme is very short, less than 150 lines and written in plain standard C
 1. Creates an array of 48 numbers, each of one represents one of the cards of a deck. 
 2. It shuffles the array using the Fisher–Yates shuffle Algorithm. It can be improved, but it dose the job.
 3. Compares the shuffled array with the one that is sorted by lower numbers.
-4. Createsan index called **equality** that adds a unit for every position that is in teh supposed sorted position. Eg: if the final goal of an array is : 1 2 3 4 5 6  and we have  6 2 3 1 5 4 after shuffling it, this array has a equality index of 3, as it has 3 positions in teh correct orter, that is, 2, 3 and 5. 
+4. Creates an index called **equality** that adds a unit for every position that is in the supposed sorted position. 
+Eg: if the final goal of an array is : 1 2 3 4 5 6  and we have  6 2 3 1 5 4 after shuffling it, this array has a equality index of 3, as it has 3 positions in teh correct orter, that is, 2, 3 and 5. 
+5. It cycles shuffling and comparing arrays, till the maximun equality index is achived.
+Eg: In the previous example teh array 1 2 3 4 5 6, will have a equality of 6, as all 6 positions are the the corresponded one to name this array as sorted, that is, to be the deck of cards, ordered by numbers after a few shuffles.
 
 Have a look to it and try to run it in any plataform and see the speed of your system.
 
