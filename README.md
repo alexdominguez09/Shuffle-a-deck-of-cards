@@ -15,6 +15,12 @@ MS-DOS -> CPU 80286 -> MS-DOS 6.22
        
 The reason to write it in C and in a single file was to be able to port it into as many plataforms posible and to make a easy and portable as possible.
 
+The programme is very short, less than 150 lines and written in plain standard C. Is a bit self-explanatory, but un summary what it does, is:
+1. Creates an array of 48 numbers, each of one represents one of the cards of a deck. 
+2. It shuffles the array using the Fisher–Yates shuffle Algorithm. It can be improved, but it dose the job.
+3. Compares the shuffled array with the one that is sorted by lower numbers.
+4. Createsan index called **equality** that adds a unit for every position that is in teh supposed sorted position. Eg: if the final goal of an array is : 1 2 3 4 5 6  and we have  6 2 3 1 5 4 after shuffling it, this array has a equality index of 3, as it has 3 positions in teh correct orter, that is, 2, 3 and 5. 
+
 Have a look to it and try to run it in any plataform and see the speed of your system.
 
 ![Image of screen 1](https://github.com/alexdominguez09/Shuffle-a-deck-of-cards/blob/main/screen01.png)
