@@ -1,4 +1,4 @@
-# Shuffle-a-deck-of-cards
+# Shuffle-a-deck-of-cards  
 This is a C portable program to simulate shuffling a deck of cards as many times as the final result would be the deck of carts totally well sorted.
 
 The programme has ben compiled and ported into 2 diferent plataforms so far:
@@ -15,4 +15,5 @@ MS-DOS -> CPU 80286 -> MS-DOS 6.22
        
 The reason to write it in C and in a single file was to be able to port it into as many plataforms posible and to make a easy and portable as possible
 
-https://github.com/alexdominguez09/Shuffle-a-deck-of-cards/blob/main/screen01.png
+(https://github.com/alexdominguez09/Shuffle-a-deck-of-cards/blob/main/screen01.png)
+(/docs/logo/banner-meshroom.png)
