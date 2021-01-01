@@ -15,5 +15,4 @@ MS-DOS -> CPU 80286 -> MS-DOS 6.22
        
 The reason to write it in C and in a single file was to be able to port it into as many plataforms posible and to make a easy and portable as possible
 
-!(/images/screen01.png)
-
+![Image of screen 1](https://github.com/alexdominguez09/Shuffle-a-deck-of-cards/blob/main/screen01.png)
